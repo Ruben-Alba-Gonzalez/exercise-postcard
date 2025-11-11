@@ -1,0 +1,99 @@
+/*PARA VER LOS LIMITES
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+/* ESTILOS DE LA POSTCARD */
+body {
+	background: black;
+	height: 100vh;
+	align-content: center;
+	margin: 0;
+}
+
+.container {
+	background: white;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	padding: 10px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+}
+
+.title {
+	width: 85%;
+	margin: 0;
+	align-content: center;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body_textContainer {
+	width: 60%;
+}
+
+.body_inputContainer {
+	width: 40%;
+}
+
+.body_textContainer p:first-child {
+	margin-top: 0;
+}
+
+.body_textContainer,
+.body_inputContainer {
+	padding: 5px;
+}
+
+p {
+	font-size: 1.35em;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	width: 100%;
+	height: 15%;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 1.5%;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.submit {
+	margin-top: 2%;
+	background-color: lightgrey;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font-size: 1.1em;
+}
+
+.submit:active {
+	border: none;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.submit:hover {
+	background-color: #adadad;
+}
+
+.font {
+	font-family: "Handlee", cursive;
+}
